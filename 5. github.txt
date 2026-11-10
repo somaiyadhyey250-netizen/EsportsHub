@@ -1,0 +1,112 @@
+========================================================================
+PROJECT SUBMISSION DETAILS
+========================================================================
+Project Title : ESPORT HUB - Gaming Tournament Management Portal
+Course Code   : 01CE1306 - Web Technology
+Institution   : Marwadi Education Foundation's Group of Institutions (MEFGI)
+Department    : Department of Computer Engineering
+Academic Year : 2026-2027
+
+------------------------------------------------------------------------
+STUDENT INFORMATION:
+------------------------------------------------------------------------
+Enrollment No : 92500120026
+Student Name  : Dhyey Somaiya
+Course        : 01CE1306 - Web Technology
+Semester      : 5th Semester
+
+------------------------------------------------------------------------
+GITHUB REPOSITORY LINK:
+------------------------------------------------------------------------
+Repository URL: https://github.com/[your-github-username]/esporthub
+(Replace [your-github-username] with your actual GitHub username)
+
+------------------------------------------------------------------------
+PROJECT STRUCTURE:
+------------------------------------------------------------------------
+1. Admin/
+   - Full-featured Tournament Administration & Control Portal.
+   - Comprehensive Dashboard with real-time stats & activity logs.
+   - Tournament management (Create, Update, Schedule BGMI & Free Fire).
+   - Team registration approval & verification workflow.
+   - Match scheduling and live score entry with auto-ranking.
+   - Automated points table generation and leaderboards.
+   - User and player management with status controls.
+   - Visual analytics charts and platform announcements.
+
+2. Client/
+   - Public Gaming Portal and Player Dashboard.
+   - Modern dark red gaming UI inspired by competitive esports portals.
+   - Landing page with featured tournaments, live matches & highlights.
+   - Tournament browsing with game filters (BGMI / Free Fire).
+   - Squad & Solo tournament registration workflow.
+   - Match schedules, live brackets, and team standing tables.
+   - Player profiles, squad management, and achievement showcase.
+   - Secure Authentication (Login & Registration) with comprehensive
+     client-side JavaScript Validations.
+
+3. 1. Project_Wireframe.pdf
+   - Complete UI/UX Wireframes, architectural layouts, and screen mockups.
+
+4. 2.Project_client side.pdf
+   - Client Portal screenshots, feature documentation, and user workflow.
+
+5. 3.Project_admin_side.pdf
+   - Admin Portal screenshots, feature documentation, and management workflow.
+
+6. 4. JS Validations.pdf
+   - Detailed JavaScript validation documentation conforming to Lab Assignment:
+     * Fig 1.1: All fields are required validation
+     * Fig 1.2: Password length validation (minimum 8 characters)
+     * Fig 1.3: Email pattern validation (user@domain.com regex)
+     * Fig 1.4: Password complexity pattern validation (uppercase, lowercase, number, symbol)
+     * Fig 1.5: Phone number pattern validation (10 digits regex)
+
+7. 5. github.txt
+   - This project overview, architecture, and submission file.
+
+------------------------------------------------------------------------
+TECHNOLOGY STACK:
+------------------------------------------------------------------------
+- Core: HTML5, CSS3, Vanilla JavaScript (ES6+ Modules)
+- Styling: Custom Gaming Dark Red Theme, Bootstrap 5.3.3, Bootstrap Icons 1.11.3
+- Typography: Inter & Rajdhani Google Fonts
+- Architecture: Client-Side Routing & Modular Components
+- Data Persistence: HTML5 LocalStorage API with Seeded Mock Dataset
+
+------------------------------------------------------------------------
+DEFAULT LOGIN CREDENTIALS:
+------------------------------------------------------------------------
+Admin Access:
+- URL     : Admin/dashboard.html
+- Email   : admin@esporthub.demo
+- Password: Admin@123
+
+Player Access:
+- URL     : Client/pages/login.html
+- Email   : player@esporthub.demo (Or use the quick "Fill player" button)
+- Password: Player@123
+
+------------------------------------------------------------------------
+HOW TO RUN / VIEW THE PROJECT:
+------------------------------------------------------------------------
+Because the project uses modern ES6 modules (import/export), it should be
+served through a local web server:
+
+Method 1 (Recommended - VS Code Live Server):
+1. Open this folder in VS Code.
+2. Right click on "Client/index.html" -> Select "Open with Live Server".
+3. Right click on "Admin/dashboard.html" -> Select "Open with Live Server".
+
+Method 2 (Python Simple HTTP Server):
+1. Open terminal/PowerShell in this folder.
+2. Run: python -m http.server 5500
+3. In your browser, open:
+   - Client: http://127.0.0.1:5500/Client/index.html
+   - Admin : http://127.0.0.1:5500/Admin/dashboard.html
+
+Method 3 (Node.js):
+1. In terminal: npx serve .
+2. Open the displayed URL and navigate into Client or Admin.
+========================================================================
+
